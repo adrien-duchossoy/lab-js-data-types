@@ -29,11 +29,11 @@ function capitalizeLastLetter (str){
     const stringWithoutLastLetter = str.slice(0,str.length-1)
     return stringWithoutLastLetter+stringLastLetter
 }
-const camelTail = capitalizeLastLetter(part1)+capitalizeLastLetter(part2)
+const result = capitalizeLastLetter(part1)+capitalizeLastLetter(part2)
 
 // Print the cameLtaiL-formatted string
 
-console.log(camelTail)
+console.log(result)
 
 
 /*******************************************
@@ -54,10 +54,10 @@ console.log(tipAmount)
 *******************************************/
 
 // Generate a random integer between 1 and 10 (inclusive)
-const randomNum =Math.floor(Math.random()*10)+1
+const randomNumber =Math.floor(Math.random()*10)+1
 
 // Print the generated random number
-console.log(randomNum)
+console.log(randomNumber)
 
 
 /*******************************************
@@ -70,17 +70,22 @@ const b = false;
 // Try and guess the output of the below expressions first and write your answers down:
 const expression1 = a && b;
 //false
+console.log(expression1)
 const expression2 = a || b;
 //true
+console.log(expression2)
 const expression3 = !a && b;
 //false
+console.log(expression3)
 const expression4 = !(a && b);
 //true
+console.log(expression4)
 const expression5 = !a || !b;
 //true
+console.log(expression5)
 const expression6 = !(a || b);
 //false
+console.log(expression6)
 const expression7 = a && a;
 //true
-
 console.log(expression7)
