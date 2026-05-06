@@ -89,3 +89,5 @@ console.log(expression6)
 const expression7 = a && a;
 //true
 console.log(expression7)
+
+console.log(parseFloat('08.5'))
